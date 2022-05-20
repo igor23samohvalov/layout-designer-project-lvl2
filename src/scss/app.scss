@@ -1,114 +1,87 @@
 @import 'variables.scss';
 @import 'general.scss';
-
-header {
-  position: absolute;
-  display: flex;
-  justify-content: space-between;
-  align-content: center;
-  flex-wrap: wrap;
-  padding-left: 120px;
-  padding-right: 120px;
-  top: 25px;
-  left: 0;
-  right: 0;
-
-  .navbar {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: wrap;
-
-    > div {
-      margin-right: 24px;
-      font-size: 11px;
-    }
-
-    > div:first-child {
-      justify-self: flex-start;
-    }
-  }
-
-  input {
-    min-width: 248px;
-    background-color: $dark;
-    border-radius: 50px;
-    padding: 5px 10px;
-    font-size: 11px;
-  }
-}
-
-#page-description {
-  background-image: url('../images/banner.png');
-  background-position: center;
-  background-size: cover;
-
-  h1, h2 {
-    margin: 0;
-  }
-
-  form {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 570px;
-
-    input {
-      flex-basis: 270px;
-      min-height: 50px;
-      padding-left: 20px;
-      margin-bottom: 1.5rem;
-      border: 2px solid $darkgray;
-      border-radius: 3px;
-    }
-
-    button {
-      width: 100%;
-      padding: 20px 30px;
-      border: none;
-      border-radius: 5px;
-      background-color: $green;
-    }
-  }
-}
+@import 'header.scss';
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+#page-pricing {
+  padding-top: 100px;
+  text-align: center;
+}
 
-@media (max-width: 1240px) {
-  header {
+.pricing-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+
+  .pricing-item {
+    display: flex;
     flex-direction: column;
-    width: 100%;
-    align-content: flex-start;
-    padding-left: 20px;
-    padding-right: 20px;
+    justify-content: space-between;
 
-    .navbar {
-      flex-direction: column;
-      justify-items: flex-start;
-      align-items: flex-start;
+    height: 615px;
+    width: 368px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    background-image: url('../images/subscribe_1.png');
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 1rem;
+
+    h3 {
+      margin-bottom: 200px;    
     }
-    input {
-      width: 100%;
+    .pricing-value {
+      font-size: 64px;
+      line-height: 1em;
+      margin: 0;
+
+      span {
+        font-size: 0.5em;
+        line-height: 0.75em;
+      }
+    }
+    a {
+      border: 1px solid #fff;
+    }
+    .pricing-footer {
+      font-size: 12.8px;
+      line-height: 19.2px;
     }
   }
+  .pricing-item:nth-of-type(2) {
+    background-image: url('../images/subscribe_2.png');
+  }
+  .pricing-item:nth-of-type(3) {
+    background-image: url('../images/subscribe_3.png');
+  }
+}
 
+@media (max-width: 1240px) {
   .container {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
   }
 
-  #page-description {
-    form {
-      input {
-        flex-grow: 1;
+  #page-pricing {
+    .container {
+      .pricing-block {
+        flex-wrap: wrap;
+
+        .pricing-item {
+          margin-bottom: 27px;
+        }
       }
     }
   }

@@ -7,11 +7,12 @@
   // background-color: $black;
 }
 
-.body {
+body {
   margin: 0;
 }
 
 h1 {
+  margin: 0;
   font-size: 60px;
   line-height: 90px;
   font-weight: bold;
@@ -19,10 +20,30 @@ h1 {
 }
 
 h2 {
+  margin: 0;
   font-size: 38px;
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 100%;
+  padding: 20px 30px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.bg-black {
+  background-color: $black;
 }
 
 @media (max-width: 1240px) {
