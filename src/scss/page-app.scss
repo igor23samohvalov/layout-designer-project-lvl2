@@ -1,0 +1,46 @@
+#page-app {
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .app-body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 48px;
+
+    > div {
+      width: 48%;
+    }
+    .btn {
+      border-radius: 32px;
+      padding: 16px 40px;
+      font-size: 12.8px;
+
+      text-transform: none;
+    }
+    .app-image {
+      display: flex;
+      justify-content: center;
+    }
+
+  }
+}
+
+@media (max-width: 1240px) {
+  #page-app {
+    .app-body {
+      flex-direction: column-reverse;
+      margin-top: 0;
+
+      > div {
+        margin-top: 48px;
+        width: 100%;
+      }
+    }
+  }
+}
