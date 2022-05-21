@@ -46,6 +46,14 @@ h3 {
   background-color: $black;
 }
 
+.font-orange {
+  color: $orange;
+}
+
+.row-reverse {
+  flex-direction: row-reverse;
+}
+
 @media (max-width: 1240px) {
   h1 {
     font-size: 30px;

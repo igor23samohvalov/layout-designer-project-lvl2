@@ -1,0 +1,69 @@
+#page-pricing {
+  padding-top: 100px;
+  text-align: center;
+}
+
+.pricing-block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 100%;
+
+  .pricing-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 615px;
+    width: 368px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+
+    background-image: url('../images/subscribe_1.png');
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 1rem;
+
+    h3 {
+      margin-bottom: 200px;    
+    }
+    .pricing-value {
+      font-size: 64px;
+      line-height: 1em;
+      margin: 0;
+
+      span {
+        font-size: 0.5em;
+        line-height: 0.75em;
+      }
+    }
+    .btn {
+      border: 1px solid #fff;
+    }
+    .pricing-footer {
+      font-size: 12.8px;
+      line-height: 19.2px;
+    }
+  }
+  .pricing-item:nth-of-type(2) {
+    background-image: url('../images/subscribe_2.png');
+  }
+  .pricing-item:nth-of-type(3) {
+    background-image: url('../images/subscribe_3.png');
+  }
+}
+
+@media (max-width: 1240px) {
+  #page-pricing {
+    .container {
+      .pricing-block {
+        flex-wrap: wrap;
+
+        .pricing-item {
+          margin-bottom: 27px;
+        }
+      }
+    }
+  }
+}

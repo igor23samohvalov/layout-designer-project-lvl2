@@ -35,35 +35,6 @@ header {
   }
 }
 
-#page-description {
-  background-image: url('../images/banner.png');
-  background-position: center;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 200px;
-
-  form {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    max-width: 570px;
-
-    input {
-      flex-basis: 270px;
-      min-height: 50px;
-      padding-left: 20px;
-      margin-bottom: 1.5rem;
-      border: 2px solid $darkgray;
-      border-radius: 3px;
-    }
-
-    button {
-      border: none;
-      background-color: $green;
-    }
-  }
-}
-
 @media (max-width: 1240px) {
   header {
     flex-direction: column;
@@ -80,13 +51,5 @@ header {
     input {
       width: 100%;
     }
-  }
-
-  #page-description {
-    form {
-      input {
-        flex-grow: 1;
-      }
-    }
-  }
+  }  
 }
