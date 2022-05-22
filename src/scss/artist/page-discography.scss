@@ -1,0 +1,50 @@
+#page-discography {
+  padding-top: 100px;
+
+  h2 {
+    align-self: flex-start;
+    margin-bottom: 48px;
+  }
+
+  .grid-4 {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, auto);
+    grid-gap: 25px 50px;
+
+    img {
+      width: '250px';
+    }
+    .discography-info {
+      display: flex;
+      flex-direction: column;
+
+      h3 {
+        margin: 0;
+      
+        font-size: 18px;
+        line-height: 27px;
+        font-weight: bold;
+      }
+      span {
+        font-size: 16px;
+        line-height: 24px;
+      }
+    }
+
+  }
+}
+
+@media (max-width: 1240px) {
+  #page-discography {
+    .grid-4 {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+
+      img {
+        width: 137px;
+      }
+    }
+  }
+}
