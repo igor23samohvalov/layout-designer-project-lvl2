@@ -15,14 +15,21 @@
       font-size: 16px;
     }
     div {
+      display: flex;
       margin-top: 48px;
 
       .btn {
+        display: flex;
+        align-items: center;
+        width: 200px;
         margin-right: 24px;
+        font-size: 12.8px;
 
         img {
           width: 20px;
           margin-right: 16px;
+
+          filter: invert(98%) sepia(100%) saturate(2%) hue-rotate(313deg) brightness(113%) contrast(101%);
         }
       }
     }

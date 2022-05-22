@@ -1,14 +1,16 @@
-#page-discography {
+#page-similar {
   padding-top: 100px;
+  padding-bottom: 100px;
 
   h2 {
     align-self: flex-start;
     margin-bottom: 48px;
   }
 
-  .discography-info {
+  .similar-item {
     display: flex;
     flex-direction: column;
+    text-align: center;
 
     h3 {
       margin: 0;
@@ -25,7 +27,7 @@
 }
 
 @media (max-width: 1240px) {
-  #page-discography {
+  #page-similar {
     img {
       width: 137px;
     }
