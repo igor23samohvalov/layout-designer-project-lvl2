@@ -58,11 +58,9 @@ header {
     .navbar {
       flex-direction: column;
       align-items: flex-start;
-      margin-bottom: 18px;
+      margin-bottom: 15px;
+      width: min-content;
       
-      > a {
-        width: 90px
-      }
       div:first-child {
         margin-bottom: 17px;
       }
