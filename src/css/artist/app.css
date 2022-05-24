@@ -107,7 +107,7 @@ h3 {
   margin-bottom: 18px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1239px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -167,7 +167,7 @@ header input {
   font-size: 11px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1239px) {
   header {
     flex-direction: column;
     width: 100%;
@@ -261,7 +261,7 @@ header input {
   font-size: 12.8px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1239px) {
   #page-popular-track .grid-2 {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(6, 1fr);
@@ -291,7 +291,7 @@ header input {
   line-height: 24px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1239px) {
   #page-discography img {
     width: 137px;
   }
@@ -321,7 +321,7 @@ header input {
   line-height: 24px;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1239px) {
   #page-similar img {
     width: 137px;
   }
@@ -381,7 +381,7 @@ footer .footer-bottom > * {
   color: #e0e0e0;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1239px) {
   footer .footer-sitemap > div:not(:first-of-type) {
     margin-top: 30px;
   }
@@ -407,7 +407,7 @@ footer .footer-bottom > * {
   margin-right: auto;
 }
 
-@media (max-width: 1240px) {
+@media (max-width: 1239px) {
   .container {
     width: 100%;
     padding-left: 20px;
