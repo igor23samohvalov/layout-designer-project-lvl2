@@ -189,6 +189,9 @@ header input {
   }
 }
 #page-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -255,9 +258,13 @@ header input {
 .pricing-block {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 50px;
   width: 100%;
   margin-bottom: 30px;
+}
+.pricing-header {
+  width: 100%;
 }
 .pricing-block .pricing-item {
   display: flex;
@@ -310,14 +317,13 @@ header input {
 }
 
 @media (max-width: 1239px) {
-  #page-pricing .container .pricing-block {
-    flex-wrap: wrap;
+  #page-pricing .pricing-block {
     margin-bottom: 0;
   }
-  #page-pricing .container .pricing-block .pricing-item {
+  #page-pricing .pricing-block .pricing-item {
     margin-bottom: 27px;
   }
-  #page-pricing .container .pricing-block .pricing-item h3 {
+  #page-pricing .pricing-block .pricing-item h3 {
     font-size: 16px;
     line-height: 24px;
   }
@@ -505,6 +511,9 @@ footer .footer-bottom > * {
 }
 
 section:not(:first-of-type) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -524,6 +533,10 @@ section:not(:first-of-type) {
   }
   .m-auto {
     width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #page-description {
     padding-left: 20px;
     padding-right: 20px;
   }

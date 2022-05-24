@@ -19,6 +19,7 @@
     }
     div {
       display: flex;
+      flex-wrap: wrap;
       margin-top: 48px;
 
       .btn {
@@ -37,5 +38,12 @@
       }
     }
   }
+}
 
+@media (max-width: 1239px) {
+  #page-description {
+    .btn:first-of-type {
+      margin-bottom: 24px;
+    }
+  }
 }

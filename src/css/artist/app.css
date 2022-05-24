@@ -207,6 +207,7 @@ header input {
 #page-description .container div {
   display: flex;
   margin-top: 48px;
+  flex-wrap: wrap;
 }
 #page-description .container div .btn {
   display: flex;
@@ -408,6 +409,9 @@ footer .footer-bottom > * {
 }
 
 section:not(:first-of-type) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -429,5 +433,12 @@ section:not(:first-of-type) {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
+  }
+  #page-description {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #page-description .btn:first-of-type {
+    margin-bottom: 24px;
   }
 }

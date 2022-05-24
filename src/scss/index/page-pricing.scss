@@ -3,6 +3,9 @@
   text-align: center;
 
   .container {
+    .pricing-header {
+      width: 100%;
+    }
     p {
       margin-bottom: 0;
     }
@@ -12,6 +15,7 @@
 .pricing-block {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   margin-top: 50px;
   width: 100%;
   margin-bottom: 30px;
@@ -75,18 +79,15 @@
 
 @media (max-width: 1239px) {
   #page-pricing {
-    .container {
-      .pricing-block {
-        flex-wrap: wrap;
-        margin-bottom: 0;
+    .pricing-block {
+      margin-bottom: 0;
 
-        .pricing-item {
-          margin-bottom: 27px;
+      .pricing-item {
+        margin-bottom: 27px;
 
-          h3 {
-            font-size: 16px;
-            line-height: 24px;
-          }
+        h3 {
+          font-size: 16px;
+          line-height: 24px;
         }
       }
     }
