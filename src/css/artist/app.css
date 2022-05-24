@@ -211,6 +211,7 @@ header input {
   width: 200px;
   margin-right: 24px;
   font-size: 12.8px;
+  border: none;
 }
 #page-description .container div .btn img {
   width: 20px;
@@ -283,6 +284,7 @@ header input {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 #page-discography .discography-info span {
   font-size: 16px;
@@ -312,6 +314,7 @@ header input {
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
+  text-transform: capitalize;
 }
 #page-similar .similar-item span {
   font-size: 16px;
