@@ -1,5 +1,16 @@
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Roboto", sans-serif;
+  src: url("../fonts/Roboto-Bold.ttf");
+  font-weight: bold;
+}
+
 * {
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   box-sizing: border-box;
   line-height: 1.5;
@@ -17,6 +28,7 @@ h1 {
   line-height: 90px;
   font-weight: bold;
   text-transform: uppercase;
+  color: $white;
 }
 
 h2 {
@@ -25,6 +37,7 @@ h2 {
   line-height: 57px;
   font-weight: bold;
   text-transform: uppercase;
+  color: $white;
 }
 
 h3 {
@@ -32,6 +45,19 @@ h3 {
   line-height: 36px;
   font-weight: 400;
   text-transform: uppercase;
+  color: $white;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .btn {
@@ -40,6 +66,7 @@ h3 {
   border-radius: 5px;
   text-transform: uppercase;
   text-decoration: none;
+  font-size: 16px;
 }
 
 .bg-black {
@@ -50,6 +77,10 @@ h3 {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
 }
 
+.bg-purple {
+  background-color: $purple;
+}
+
 .bg-red {
   background-color: $red;
 }
@@ -58,8 +89,24 @@ h3 {
   color: $orange;
 }
 
+.font-white {
+  color: $white;
+}
+
 .row-reverse {
   flex-direction: row-reverse;
+}
+
+.grid-4 {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, auto);
+  grid-gap: 25px 50px;
+}
+.grid-4 img {
+  width: 250px;
+  margin-bottom: 18px;
 }
 
 @media (max-width: 1240px) {
@@ -71,5 +118,10 @@ h3 {
   h2 {
     font-size: 18px;
     line-height: 27px;
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }

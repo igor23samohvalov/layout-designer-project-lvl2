@@ -4,8 +4,9 @@ header {
   justify-content: space-between;
   align-content: center;
   flex-wrap: wrap;
-  padding-left: 120px;
-  padding-right: 120px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
   top: 25px;
   left: 0;
   right: 0;
@@ -22,13 +23,24 @@ header {
     }
 
     > div:first-child {
+      display: flex;
       justify-self: flex-start;
+      align-items: center;
+      margin-right: 90px;
+
+      img {
+        margin-right: 16px;
+      }
+      div {
+        font-size: 11px;
+      }
     }
   }
 
   input {
     min-width: 248px;
-    background-color: $dark;
+    background-color: #3c3b3d;
+    border: none;
     border-radius: 50px;
     padding: 5px 10px;
     font-size: 11px;
@@ -45,8 +57,12 @@ header {
 
     .navbar {
       flex-direction: column;
-      justify-items: flex-start;
       align-items: flex-start;
+      margin-bottom: 18px;
+
+      div:first-child {
+        margin-bottom: 17px;
+      }
     }
     input {
       width: 100%;

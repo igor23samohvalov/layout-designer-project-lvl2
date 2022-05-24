@@ -12,45 +12,54 @@
   .pricing-item {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 
     height: 615px;
     width: 368px;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+    padding-bottom: 64px;
+    padding-top: 24;
 
-    background-image: url('../images/subscribe_1.png');
+    background-image: url('../../images/subscribe_1.png');
     background-position: center;
     background-size: cover;
 
     border-radius: 1rem;
 
     h3 {
-      margin-bottom: 200px;    
+      margin-bottom: auto;
     }
     .pricing-value {
+      display: flex;
+      align-self: center;
       font-size: 64px;
       line-height: 1em;
       margin: 0;
 
       span {
+        align-self: flex-start;
         font-size: 0.5em;
-        line-height: 0.75em;
+        line-height: 1.55em;
+        margin-left: 16px;
+        text-transform: uppercase;
       }
     }
     .btn {
       border: 1px solid #fff;
+      margin-top: 40px;
     }
     .pricing-footer {
       font-size: 12.8px;
       line-height: 19.2px;
+      margin-top: 64px;
     }
   }
   .pricing-item:nth-of-type(2) {
-    background-image: url('../images/subscribe_2.png');
+    background-image: url('../../images/subscribe_2.png');
   }
   .pricing-item:nth-of-type(3) {
-    background-image: url('../images/subscribe_3.png');
+    background-image: url('../../images/subscribe_3.png');
   }
 }
 
@@ -62,6 +71,11 @@
 
         .pricing-item {
           margin-bottom: 27px;
+
+          h3 {
+            font-size: 16px;
+            line-height: 24px;
+          }
         }
       }
     }
