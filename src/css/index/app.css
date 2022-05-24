@@ -248,6 +248,9 @@ header input {
   padding-top: 100px;
   text-align: center;
 }
+#page-pricing .container p {
+  margin-bottom: 0;
+}
 
 .pricing-block {
   display: flex;
@@ -273,13 +276,15 @@ header input {
 }
 .pricing-block .pricing-item h3 {
   margin-bottom: auto;
+  width: 100%;
 }
 .pricing-block .pricing-item .pricing-value {
   display: flex;
-  align-self: center;
+  justify-content: center;
   font-size: 64px;
   line-height: 1em;
   margin: 0;
+  width: 100%;
 }
 .pricing-block .pricing-item .pricing-value span {
   align-self: flex-start;
