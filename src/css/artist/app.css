@@ -410,9 +410,6 @@ footer .footer-bottom > * {
 
 section:not(:first-of-type) {
   width: 100%;
-}
-
-.container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -428,10 +425,7 @@ section:not(:first-of-type) {
 }
 
 @media (max-width: 1239px) {
-  /* section:not(:first-of-type) {
-
-  } */
-  .container1 {
+  section:not(:first-of-type) {
     width: 100%;
     padding-left: 20px;
     padding-right: 20px;
