@@ -107,7 +107,7 @@ h3 {
   margin-bottom: 18px;
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   h1 {
     font-size: 30px;
     line-height: 45px;
@@ -167,7 +167,7 @@ header input {
   font-size: 11px;
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   header {
     flex-direction: column;
     width: 100%;
@@ -233,7 +233,7 @@ header input {
   color: #fff;
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   #page-description {
     text-align: center;
   }
@@ -316,7 +316,7 @@ header input {
   background-image: url("../../images/subscribe_3.png");
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   #page-pricing .pricing-block {
     margin-bottom: 0;
   }
@@ -380,7 +380,7 @@ header input {
   width: max-content;
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   #page-news img {
     width: 100%;
   }
@@ -422,7 +422,7 @@ header input {
   justify-content: center;
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   #page-app .app-body {
     flex-direction: column-reverse;
     margin-top: 0;
@@ -487,7 +487,7 @@ footer .footer-bottom > * {
   color: #e0e0e0;
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   footer .footer-sitemap > div:not(:first-of-type) {
     margin-top: 30px;
   }
@@ -518,24 +518,25 @@ section:not(:first-of-type) {
   max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .m-auto {
   max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-@media (max-width: 1239px) {
+@media (max-width: 414px) {
   section:not(:first-of-type) {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
+
   }
   .m-auto {
     width: 100%;
-    padding-left: 20px;
-    padding-right: 20px;
   }
   #page-description {
     padding-left: 20px;
