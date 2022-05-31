@@ -255,6 +255,10 @@ header input {
   margin-bottom: 0;
 }
 
+.mb-0 {
+  margin-bottom: 0;
+}
+
 .pricing-block {
   display: flex;
   justify-content: space-between;
@@ -270,7 +274,7 @@ header input {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  height: 610px;
+  height: 615px;
   width: 368px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
