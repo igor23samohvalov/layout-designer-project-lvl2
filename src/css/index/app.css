@@ -129,7 +129,7 @@ header {
   justify-content: space-between;
   align-content: center;
   flex-wrap: wrap;
-  max-width: 1200px;
+  max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
   top: 25px;
@@ -474,7 +474,7 @@ footer .footer-bottom {
   display: flex;
   align-self: flex-start;
   flex-wrap: wrap;
-  width: 1200px;
+  width: 1240px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
@@ -515,13 +515,13 @@ section:not(:first-of-type) {
   display: flex;
   flex-direction: column;
   align-items: center;
-  max-width: 1200px;
+  max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .m-auto {
-  max-width: 1200px;
+  max-width: 1240px;
   margin-left: auto;
   margin-right: auto;
 }
