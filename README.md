@@ -1,2 +1,3 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/igor23samohvalov/layout-designer-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/igor23samohvalov/layout-designer-project-lvl2/actions)
+A simple 2 page layout, build using SCSS.
+
+SURGE: https://ignorant-burst.surge.sh/index.html
